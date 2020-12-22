@@ -41,7 +41,7 @@ Unfortunately, due to confidentiality issues, credit card fraud detection by ULB
 
 ## 4. Conclusion
 
-There are many criteria's like F1_score, precision, recall, accuracy score, ROC-AUC values for choosing and evaluating the best model. I have compared the confusion matrix, F1_score, precision, recall, accuracy score, and AUC values. My problem is to detect whether a transaction is a scam or a genuine one; I cannot afford a fraud classified as a non-fraud.  Choosing a model with the highest recall (specificity) is of utmost importance. The values calculated in the above table show Decision Tree and Random Forest models, giving a recall score of 0.99. 
+There are many criteria's like F1_score, precision, recall, accuracy score, ROC-AUC values for choosing and evaluating the best model. I have compared the confusion matrix, F1_score, precision, recall, accuracy score, and AUC values. My problem is to detect whether a transaction is a scam or a genuine one; I cannot afford a fraud classified as a non-fraud.  Choosing a model with the highest recall (specificity) is of utmost importance. The values calculated show Decision Tree and Random Forest models, giving a recall score of 0.99. 
 
 Since there is a tradeoff between the two models, the next metric to consider is the ROC-AUC curve and the accuracy. The difference between the Accuracy and ROC-AUC curve values is that the former is calculated based on predicted classes while the latter on predicted scores. The ROC-AUC value for Random Forest is the maximum (0.99), i.e., most of my fraud transactions classify frauds and vice versa. Thus, in conclusion, Random Forest Classification serves as the best model for my implementation.
 
