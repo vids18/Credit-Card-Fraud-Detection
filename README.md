@@ -1,7 +1,7 @@
 # Credit Card Fraud Detection
 This repository is made for the display of my final semester graduate Capstone project.
 
-1. Inspiration
+## 1. Inspiration
 
 With the growth of the e-commerce industry and community and the dire to make the global economy cashless, there have been people choosing digital payments over cash. Fraud is a huge national and worldwide problem; we will see credit card fraud rise at rates faster than ever. Credit card fraud is a form of identity theft involving criminal deception for personal financial gain. Here are some quick stats about credit card frauds:
 
@@ -12,14 +12,14 @@ With the growth of the e-commerce industry and community and the dire to make th
 
 To identify the factors leading to scams and minimize their extent, I decided to build a project that recognizes whether the transaction is a fraud or genuine.
 
-2. Datasets
+## 2. Datasets
 
 To perform analysis and build a model that correctly identifies the transaction, I have used two datasets: German Credit data by UCI Machine Learning and Credit Card Fraud Detection by Machine Learning Group-ULB from Kaggle. 
 
 * The German credit data is a fantastic dataset with variables that help decide whether a person is a good credit risk or a bad credit risk. There are originally 1000 entries and nine attributes in the dataset. 
 * The second dataset contains transactions made by credit cards in September 2013 in a span of two days. Therefore, I have about 284807 transactions and 31 columns containing only numerical input values resulting from PCA transformation. 
 
-3. Data Dictionary
+## 3. Data Dictionary
 
 German credit dataset has nine selected attributes that are important for analysis.
 
@@ -39,7 +39,7 @@ Unfortunately, due to confidentiality issues, credit card fraud detection by ULB
 * Amount (numeric: transaction amount)
 * Class (Target variable, numeric values: 1- fraud, 0- non-fraud)
 
-4. Conclusion
+## 4. Conclusion
 
 There are many criteria's like F1_score, precision, recall, accuracy score, ROC-AUC values for choosing and evaluating the best model. I have compared the confusion matrix, F1_score, precision, recall, accuracy score, and AUC values. My problem is to detect whether a transaction is a scam or a genuine one; I cannot afford a fraud classified as a non-fraud.  Choosing a model with the highest recall (specificity) is of utmost importance. The values calculated in the above table show Decision Tree and Random Forest models, giving a recall score of 0.99. 
 
